@@ -35,7 +35,89 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
         url: '/first',
         templateUrl: 'templates/first.html',
         controller: "firstCtrl"
-      });
+      })
+        .state('banquan',{
+            url: '/banquan',
+            templateUrl: 'templates/banquan.html',
+            controller: "banquanCtrl"
+        })
+        .state('yishujia',{
+            url: '/yishujia',
+            templateUrl: 'templates/yishujia.html',
+            controller: "yishujiaCtrl"
+        })
+        .state('yishuvideo1',{
+            url: '/yishuvideo1',
+            templateUrl: 'templates/yishuvideo1.html',
+            controller: "yishuvideo1Ctrl"
+        })
+        .state('yishuvideo2',{
+            url: '/yishuvideo2',
+            templateUrl: 'templates/yishuvideo2.html',
+            controller: "yishuvideo2Ctrl"
+        })
+        .state('liucheng',{
+            url: '/liucheng',
+            templateUrl: 'templates/liucheng.html',
+            controller: "liuchengCtrl"
+        })
+        .state('liucheng_1',{
+            url: '/liucheng_1',
+            templateUrl: 'templates/liucheng_1.html',
+            controller: "liucheng_1Ctrl"
+        })
+        .state('liucheng_2',{
+            url: '/liucheng_2',
+            templateUrl: 'templates/liucheng_2.html',
+            controller: "liucheng_2Ctrl"
+        })
+        .state('liucheng_3',{
+            url: '/liucheng_3',
+            templateUrl: 'templates/liucheng_3.html',
+            controller: "liucheng_3Ctrl"
+        })
+        .state('zuopin',{
+            url: '/zuopin',
+            templateUrl: 'templates/zuopin.html',
+            controller: "zuopinCtrl"
+        })
+        .state('tiyan',{
+            url: '/tiyan',
+            templateUrl: 'templates/tiyan.html',
+            controller: "tiyanCtrl"
+        })
+        .state('gongyi',{
+            url: '/gongyi',
+            templateUrl: 'templates/gongyi.html',
+            controller: "gongyiCtrl"
+        })
+        .state('gongyi_1',{
+            url: '/gongyi_1',
+            templateUrl: 'templates/gongyi_1.html',
+            controller: "gongyi_1Ctrl"
+        })
+        .state('gongyi_2',{
+            url: '/gongyi_2',
+            templateUrl: 'templates/gongyi_2.html',
+            controller: "gongyi_2Ctrl"
+        })
+        .state('gongyi_3',{
+            url: '/gongyi_3',
+            templateUrl: 'templates/gongyi_3.html',
+            controller: "gongyi_3Ctrl"
+        })
+        .state('gongyi_4',{
+            url: '/gongyi_4',
+            templateUrl: 'templates/gongyi_4.html',
+            controller: "gongyi_4Ctrl"
+        })
+        .state('gongyi_5',{
+            url: '/gongyi_5',
+            templateUrl: 'templates/gongyi_5.html',
+            controller: "gongyi_5Ctrl"
+        });
+
+
 
 
     //当没有状态匹配到时默认显示的状态
