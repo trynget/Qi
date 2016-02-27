@@ -80,7 +80,7 @@
 #circle_border_4{left: 25%;}
 #circle_border_5{left: 31%;}
 .circle{border: 0.4em solid #CACACA;border-radius: 5px;}
-.su{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: #ffff00;z-index: 10;opacity:0.1;display: none;}
+.su{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: #ffff00;z-index: 10;opacity:0;display: none;}
 #save{width: 8.33%;height: auto;position: absolute;top: 55.13%;right: 5.56%;display: none;}
 #main_1{width: 98%;height: 52.97%;position: absolute;top: 9.73%;left: 1%;}
 #span_1{width: 31%;height: auto;position: absolute;left: 5.98%;top: 24.47%;}
@@ -109,13 +109,8 @@
 #main_2_3{width: 98%;height: 52.97%;position: absolute;top: 9.73%;left: 1%;display: none;}
 #main_2_4{width: 98%;height: 52.97%;position: absolute;top: 9.73%;left: 1%;display: none;}
 /*小游戏3*/
-#span_3_1{width: 28%;height: auto;position: absolute;left: 66.62%;top: 29.47%;}
-#span_3_2{width: 28%;height: auto;position: absolute;left: 66.62%;top: 29.47%;display: none;}
-#span_3_3{width: 18%;height: auto;position: absolute;left: 68.62%;top: 29.47%;display: none;}
-#span_3_4{width: 18%;height: auto;position: absolute;left: 68.62%;top: 29.47%;display: none;}
-#span_3_5{width: 18%;height: auto;position: absolute;left: 68.62%;top: 29.47%;display: none;}
-#span_3_6{width: 18%;height: auto;position: absolute;left: 68.62%;top: 29.47%;display: none;}
-#main_3_2{width: 98%;height: 52.97%;position: absolute;top: 9.73%;left: 1%;display: none;}
+#span_3_1{width: 28%;height: auto;position: absolute;left: 66.62%;top: 29.47%;display: none;}
+#span_3_2{width: 28%;height: auto;position: absolute;left: 63.62%;top: 18.47%;}
 /*版权页面*/
 #zhizuoxinxi{width: 84.53%;height: auto;position: absolute;top: 10.05%;left: 7.73%;}
 #wenzi_banquan{width: 51.85%;height: auto;position: absolute;top: 37.03%;left: 24.07%;}
