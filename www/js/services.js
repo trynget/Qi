@@ -2,16 +2,16 @@
 angular.module('starter.services', [])
 
   .service('showMsgService',["$ionicLoading", function ($ionicLoading) {
-    /**
-     * 弹框提示
-     * @param msg 提示信息
-     */
-    this.showMsg = function (msg) {
-      $ionicLoading.show({
-        template: '<span style="color: white">' + msg + '</span>',
-        noBackdrop:true,
-        duration: 1500
-      });
-    }
+        /**
+         * 弹框提示
+         * @param msg 提示信息
+         */
+        this.showMsg = function (msg) {
+            $ionicLoading.show({
+                //template: '<span style="color: white">' + msg + '</span>',
+                //noBackdrop:true,
+                duration: 1000
+            });
+        }
 
   }]);

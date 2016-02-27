@@ -81,10 +81,64 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
             templateUrl: 'templates/zuopin.html',
             controller: "zuopinCtrl"
         })
+        .state('zuopin_1',{
+            url: '/zuopin_1',
+            templateUrl: 'templates/zuopin_1.html',
+            controller: "zuopin_1Ctrl"
+        })
+        .state('zuopin_2',{
+            url: '/zuopin_2',
+            templateUrl: 'templates/zuopin_2.html',
+            controller: "zuopin_2Ctrl"
+        })
+        .state('zuopin_3',{
+            url: '/zuopin_3',
+            templateUrl: 'templates/zuopin_3.html',
+            controller: "zuopin_3Ctrl"
+        })
+        .state('zuopin_4',{
+            url: '/zuopin_4',
+            templateUrl: 'templates/zuopin_4.html',
+            controller: "zuopin_4Ctrl"
+        })
+        .state('zuopin_5',{
+            url: '/zuopin_5',
+            templateUrl: 'templates/zuopin_5.html',
+            controller: "zuopin_5Ctrl"
+        })
+        .state('zuopin_6',{
+            url: '/zuopin_6',
+            templateUrl: 'templates/zuopin_6.html',
+            controller: "zuopin_6Ctrl"
+        })
+        .state('zuopin_7',{
+            url: '/zuopin_7',
+            templateUrl: 'templates/zuopin_7.html',
+            controller: "zuopin_7Ctrl"
+        })
         .state('tiyan',{
             url: '/tiyan',
             templateUrl: 'templates/tiyan.html',
             controller: "tiyanCtrl"
+        })
+        .state('tiyan_1',{
+            url: '/tiyan_1',
+            //cache刷新页面数据
+            cache:'false',
+            templateUrl: 'templates/tiyan_1.html',
+            controller: "tiyan_1Ctrl"
+        })
+        .state('tiyan_2',{
+            url: '/tiyan_2',
+            cache:'false',
+            templateUrl: 'templates/tiyan_2.html',
+            controller: "tiyan_2Ctrl"
+        })
+        .state('tiyan_3',{
+            url: '/tiyan_3',
+            cache:'false',
+            templateUrl: 'templates/tiyan_3.html',
+            controller: "tiyan_3Ctrl"
         })
         .state('gongyi',{
             url: '/gongyi',
