@@ -49,7 +49,6 @@ angular.module('starter.controllers', [])
     .controller('yishuvideo1Ctrl',function($scope ,$state) {
         var myVideo=document.getElementById("video1");
         $scope.Goback = function() {
-            myVideo.pause();
             history.back();
         };
     })

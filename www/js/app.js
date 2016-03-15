@@ -43,6 +43,7 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
         })
         .state('yishujia',{
             url: '/yishujia',
+            cache:'false',
             templateUrl: 'templates/yishujia.html',
             controller: "yishujiaCtrl"
         })
