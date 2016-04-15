@@ -30,6 +30,7 @@
         <img id="main_3" src="img/tiyan/one/main_4.png" alt=""/>
         <img id="font_5" src="img/tiyan/one/font_5.png" alt=""/>
         <img id="save" src="img/tiyan/save.png" alt=""/>
+        <div id="toSave" style="display: none"></div>
         <!--进度条-->
         <div class="circle_border" id="circle_border_1"><div class="circle" id="circle_1"></div></div>
         <div class="circle_border" id="circle_border_2"><div class="circle" id="circle_2"></div></div>
@@ -38,7 +39,18 @@
         <div class="circle_border" id="circle_border_5"><div class="circle" id="circle_5"></div></div>
         <!--进度条完-->
         <!--声音-->
-        <audio src="../audio/砂轮打磨音效.mp3"></audio>
+        <audio id="gameAudio1">
+            <source src="audio/shalun.mp3">
+        </audio>
+        <audio id="gameAudio2">
+            <source src="audio/jinshu.mp3">
+        </audio>
+        <audio id="gameAudio3">
+            <source src="audio/shazhi.mp3">
+        </audio>
+        <audio id="gameAudio4">
+            <source src="audio/success.mp3">
+        </audio>
         <!--声音完-->
     </ion-content>
 </ion-view>

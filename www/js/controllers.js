@@ -169,11 +169,21 @@ angular.module('starter.controllers', [])
             $(".zp_photo").click(function(){
                 var img_sr = $(this).attr('src');
                 $(".display_photo").attr("src",img_sr);
-                $("#cover_bj,.close,.display_photo").css("display","inline");
+                var pswpElement = document.querySelectorAll('.pswp')[0];
+                var items = [
+                    {
+                        src: img_sr,
+                        w: $(this).width(),
+                        h: $(this).height()
+                    }
+                ];
+                var options = {
+                    index: 0,
+                    tapToClose: true
+                };
+                var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+                gallery.init();
             });
-            $(".close").click(function(){
-                $("#cover_bj,.close,.display_photo").css("display","none");
-            })
     })
     .controller('zuopin_2Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -186,11 +196,22 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
+
     })
     .controller('zuopin_3Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -203,11 +224,21 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
     })
     .controller('zuopin_4Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -220,11 +251,21 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
     })
     .controller('zuopin_5Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -237,11 +278,21 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
     })
     .controller('zuopin_6Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -254,11 +305,21 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
     })
     .controller('zuopin_7Ctrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -271,11 +332,21 @@ angular.module('starter.controllers', [])
         $(".zp_photo").click(function(){
             var img_sr = $(this).attr('src');
             $(".display_photo").attr("src",img_sr);
-            $("#cover_bj,.close,.display_photo").css("display","inline");
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            var items = [
+                {
+                    src: img_sr,
+                    w: $(this).width(),
+                    h: $(this).height()
+                }
+            ];
+            var options = {
+                index: 0,
+                tapToClose: true
+            };
+            var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
         });
-        $(".close").click(function(){
-            $("#cover_bj,.close,.display_photo").css("display","none");
-        })
     })
     .controller('tiyanCtrl',function($scope ,$state) {
         $scope.Goback = function() {
@@ -291,7 +362,7 @@ angular.module('starter.controllers', [])
             $state.go('tiyan_3')
         };
     })
-.controller('tiyan_1Ctrl',function($scope ,$state) {
+.controller('tiyan_1Ctrl',function($scope ,$state,showMsgService) {
     $scope.Goback = function() {
         history.back();
     };
@@ -301,9 +372,11 @@ angular.module('starter.controllers', [])
             if(n>=5){
                 $("#span_2,#success_1,#su_1").css("display","inline");
                 $("#span_1").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=n;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio1')[0].play();
             }
         });
         $("#su_1").click(function(){
@@ -319,9 +392,11 @@ angular.module('starter.controllers', [])
             if(m>=5){
                 $("#span_4,#success_1,#su_2").css("display","inline");
                 $("#span_3").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=m;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio2')[0].play();
             }
         });
         $("#su_2").click(function(){
@@ -336,6 +411,7 @@ angular.module('starter.controllers', [])
         $("#span_5").click(function(){
             $("#span_6,#success_1,#su_3").css("display","inline");
             $("#circle_1").css("border-color","#C49020");
+            $('#gameAudio3')[0].play();
         });
         $("#su_3").click(function(){
             $("#success_1,#su_3").css("display","none");
@@ -353,9 +429,11 @@ angular.module('starter.controllers', [])
             if(q>=5){
                 $("#span_7,#success_1,#su_4,#span_5").css("display","inline");
                 $("#span_5,#span_6").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=q;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio3')[0].play();
             }
         });
         $("#su_4").click(function(){
@@ -371,9 +449,31 @@ angular.module('starter.controllers', [])
             if(w>=5){
                 $("#save,#success_1,#main_3").css("display","inline");
                 $("#span_7,#main_2").css("display","none");
+                $('#gameAudio4')[0].play();
+                $("#save").click(function() {
+                    var canvas = document.createElement("canvas");
+                    var image = new Image();
+                    image.src = "img/tiyan/one/main_4.png";
+                    canvas.width = image.width;
+                    canvas.height = image.height;
+                    canvas.id = "myCanvas";
+                    canvas.getContext("2d").drawImage(image, 0, 0);
+                    $('#toSave').append(canvas);
+                    window.canvas2ImagePlugin.saveImageDataToLibrary(
+                        function(msg){
+                            console.log(msg);
+                        },
+                        function(err){
+                            console.log(err);
+                        },
+                        document.getElementById('myCanvas')
+                    );
+                    showMsgService.showMsg("图片已保存到手机相册");
+                })
             }
             for(i=1;i<=w;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio3')[0].play();
             }
         });
 
@@ -389,9 +489,11 @@ angular.module('starter.controllers', [])
             if(nn>=5){
                 $("#success_1,#su_1,#span_2_2").css("display","inline");
                 $("#span_2_1").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=nn;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio1')[0].play();
             }
         });
 //        点击至第二步
@@ -409,9 +511,11 @@ angular.module('starter.controllers', [])
             if(mm>=5){
                 $("#success_1,#su_2,#main_2_3,#span_2_3").css("display","inline");
                 $("#main_2_2").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=mm;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio2')[0].play();
             }
         });
 //        点击至第三步
@@ -428,6 +532,7 @@ angular.module('starter.controllers', [])
         $("#span_2_3_2").click(function(){
             $("#success_1,#su_3,#span_2_4").css("display","inline");
             $("#circle_1").css("border-color","#C49020");
+            $('#gameAudio3')[0].play();
         });
 //       点击至第四步
         $("#su_3").click(function() {
@@ -447,9 +552,11 @@ angular.module('starter.controllers', [])
             if(qq>=5){
                 $("#success_1,#su_4,#span_2_5").css("display","inline");
                 $("#main_2_2,#span_2_4").css("display","none");
+                $('#gameAudio4')[0].play();
             }
             for(i=1;i<=qq;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio3')[0].play();
             }
         });
     //    点击至第五步
@@ -467,9 +574,31 @@ angular.module('starter.controllers', [])
             if(ww>=5){
                 $("#success_1,#main_2_4,#save").css("display","inline");
                 $("#main_2_3,#span_2_5,#span_2_4,#span_2_3_2").css("display","none");
+                $('#gameAudio4')[0].play();
+                $("#save").click(function() {
+                    var canvas = document.createElement("canvas");
+                    var image = new Image();
+                    image.src = "img/tiyan/two/main_4.png";
+                    canvas.width = image.width;
+                    canvas.height = image.height;
+                    canvas.id = "myCanvas1";
+                    canvas.getContext("2d").drawImage(image, 0, 0);
+                    $('#toSave1').append(canvas);
+                    window.canvas2ImagePlugin.saveImageDataToLibrary(
+                        function(msg){
+                            console.log(msg);
+                        },
+                        function(err){
+                            console.log(err);
+                        },
+                        document.getElementById('myCanvas1')
+                    );
+                    showMsgService.showMsg("图片已保存到手机相册");
+                })
             }
             for(i=1;i<=ww;i++){
                 $("#circle_"+i).css("border-color","#C49020");
+                $('#gameAudio3')[0].play();
             }
         });
     })
